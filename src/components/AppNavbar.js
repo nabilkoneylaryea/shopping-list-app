@@ -8,7 +8,6 @@ import {
     NavItem, // nav link
     NavLink, // has href value
     Container, // moves everything to middle
-    Col
 } from 'reactstrap';
 
 
@@ -38,6 +37,7 @@ class AppNavbar extends Component{
     render(){
         return (
         <div>
+            {/* REACTSTRAP LETS YOU USE BOOTSTRAP CLASSES LIKE THEY ARE COMPONENTS */}
             <Navbar color="dark" dark expand="sm" className="mb-5">
                 <Container>
                     <NavbarBrand href="/">Shopping List</NavbarBrand>
