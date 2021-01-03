@@ -4,7 +4,7 @@ import ShoppingList from './components/ShoppingList';
 import 'bootstrap/dist/css/bootstrap.min.css'; // ICLUDES BOOTSTRAP
 import './App.css';
 
-// CAN SJARE STATE THROUGHOUT COMPONENTS
+// CAN SHARE STATE THROUGHOUT COMPONENTS
 import {Provider} from 'react-redux';
 import store from './store';
 
